@@ -1,24 +1,31 @@
-# Subsurface Trash Collector (Software Simulation)
+# Subsurface Pollution Simulation (Software Prototype)
 
-This project is a software-only simulation of a subsurface trash detection and collection system.
-It generates synthetic sensor data, performs basic statistical analysis, produces visualizations,
-and creates a summary report.
+This project is a software-based prototype for simulating subsurface pollution data with a focus on underground waste and its potential impact on groundwater systems.
 
-The focus of this project is on the software and data-processing pipeline for environmental
-monitoring and cleanup systems.
+The project generates synthetic underground pollution data, analyzes spatial and depth-based characteristics, and visualizes pollution distributions. It is intended as a foundational step toward modeling pollution mitigation and groundwater quality improvement through software-based simulations.
+
+---
+
+## Project Objective
+
+The primary goal of this project is to simulate underground pollution data that could represent contaminants affecting subsurface environments, particularly groundwater systems.
+
+This version of the project focuses on:
+- Pollution presence and distribution
+- Depth-based pollution characteristics
+- Data analysis and visualization
+
+Future versions may extend this work to simulate pollution reduction strategies and their impact on groundwater quality.
 
 ---
 
 ## Project Features
 
-- Synthetic dataset generation for subsurface trash detection
-- Statistical analysis of generated data
-- Data visualization using charts
-- Automatic summary report generation
-- Modular and maintainable Python project structure
-
----
-
+- Synthetic subsurface pollution dataset generation
+- Depth and type-based pollution analysis
+- Visualization of underground pollution distributions
+- Summary reporting of simulated pollution data
+- Modular software structure for future extensions
 
 ---
 
@@ -26,18 +33,39 @@ monitoring and cleanup systems.
 
 1. Clone the repository.
 2. (Recommended) Create and activate a virtual environment.
-3. Install dependencies:
+3. Install dependencies: pip install -r requirements.txt
+4.Run the simulation: python src/main.py
 
+---
 
-## Purpose and Scope
+## Outputs
 
-This project demonstrates how software systems can simulate, analyze, and visualize
-environmental data. It serves as a foundation for future extensions such as rule-based
-decision logic, advanced analytics, or machine learning models.
+After execution, the project produces:
 
-## Future Improvements
+### Dataset
+data/raw/trash_dataset.csv
+Simulated subsurface pollution data including depth and pollutant type.
 
-Enhanced simulation realism
-Rule-based or data-driven collection logic
-Automated testing and validation
-Integration with machine learning pipelines
+### Visualizations
+data/processed/trash_type_distribution.png
+data/processed/trash_depth_distribution.png
+
+### Report
+data/processed/summary_report.txt
+A basic summary of simulated underground pollution characteristics.
+
+## Scope and Limitations
+
+This project does not currently model:
+Groundwater flow dynamics
+Pollution transport mechanisms
+Pollution reduction or cleanup effects
+
+It serves as a foundational software simulation upon which more advanced environmental or hydrological models can be built.
+
+## Future Work
+
+Simulating pollution reduction or cleanup strategies
+Modeling groundwater contamination impact
+Time-based pollution evolution
+Integration with hydrological or environmental models
