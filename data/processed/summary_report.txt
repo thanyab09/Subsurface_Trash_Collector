@@ -1,0 +1,10 @@
+SUBSURFACE TRASH COLLECTOR REPORT
+--------------------------------
+Total trash items: 100
+Average depth (cm): 156.93
+Collected items: 39
+Collection rate: 39.00%
+
+Generated files:
+- trash_type_distribution.png
+- trash_depth_distribution.png
