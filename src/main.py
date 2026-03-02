@@ -1,12 +1,15 @@
 from simulation.generate_dataset import generate_dataset
+from logic.collection_rules import analyze_dataset
 
 def main():
     print("Starting Subsurface Trash Collector Simulation...\n")
 
     dataset_path = generate_dataset()
 
-    print("Simulation complete.")
-    print(f"Dataset saved at: {dataset_path}")
+    print("\nDataset generated successfully.")
+    analyze_dataset(dataset_path)
+
+    print("\nSimulation finished.")
 
 
 if __name__ == "__main__":
