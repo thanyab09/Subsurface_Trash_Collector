@@ -69,3 +69,10 @@ Simulating pollution reduction or cleanup strategies
 Modeling groundwater contamination impact
 Time-based pollution evolution
 Integration with hydrological or environmental models
+
+---
+
+docs/README.md
+This directory is reserved for project documentation and design notes.
+tests/README.md
+This directory is reserved for future automated tests.
